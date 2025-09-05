@@ -1,0 +1,128 @@
+
+  /* Estilo opcional para esconder o formulário */
+
+  body {
+    background-image: url(../Img/universo-4k-opyoc6au0sipplvr.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+  }
+
+
+  #loginForm {
+    display: none; /* Começa oculto */
+    margin: 1rem auto;
+    width: 25rem;
+    margin-left:60%; 
+    border: 2px solid black;
+    padding: 2rem;
+   
+  }
+
+   .container-form  {
+
+    display: flex;
+    flex-wrap: wrap;
+    background: linear-gradient(120deg,rgb(50, 50, 241),rgb(21, 184, 224),rgb(50, 241, 231));
+    border-radius: 10px;
+    text-align: center;
+    height: 30em;
+} 
+  
+  form input {
+      margin: 0.8rem;
+  } 
+
+    a{
+    color: white;
+    text-decoration: none;
+  }
+
+  .come-back {
+    font-size: 1.2rem;
+  }
+
+  .come-back:hover {
+    color: rgb(50, 187, 241);
+    transition: 0.3s ease;
+  }
+  
+
+  button {
+    width:5rem;
+    height: 1.8rem;
+    border-radius: 2px;
+  }
+
+    button:hover{
+    color: white;
+    background-color: rgb(0, 162, 255);
+    transition: 0.3s ease;
+    cursor: pointer;
+  }
+
+  .recovery p:hover {
+    color: rgba(43, 43, 168, 0.89);
+    text-decoration: underline;
+    transition: 0.5s ease;
+  }
+/* ==========================================TELA DE LOGIN   =============================================== */
+/* ==========================================CLASSE RESISTER =============================================== */
+
+body.register{
+  background-image: url(../Img/background-register.jpg);
+}
+
+.register .come-back:hover {
+  color: rgb(66, 129, 46);
+  transition: 0.3s ease;
+}
+
+.register .container-form{
+    display: none; /* Começa oculto */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background: linear-gradient(120deg,rgb(24, 255, 74),rgba(36, 128, 24, 0.747),rgb(173, 255, 49));
+    border-radius: 10px;
+    text-align: center;
+    
+    width: 25rem;
+    height: 30em;
+    margin: auto auto;
+    padding: 2rem;
+    border: 2px solid black;
+} 
+
+.register button:hover {
+  color: white;
+    background-color: rgb(30, 95, 33);
+    transition: 0.3s ease;
+    cursor: pointer;
+} 
+  
+.register-option p:hover {
+  color: rgb(30, 95, 33);
+  text-decoration: underline;
+  transition: 0.5s ease;
+}
+    
+   
+     
+    
+   
+   
+  
+
+
+
+
+  /* .loginForm-block {
+    display: block; /* Começa oculto */
+    /* margin: 20px  20px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: 300px;
+  }*/ 
+
+  

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Página de Login</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/entrar.css">
+</head>
+
+<body>
+
+            <a href="index.html" id="showLoginFormLink" class="come-back">&larr; Voltar</a>
+
+            <div class="container-form" id="loginForm" >
+
+                    <h2>Entrar em sua conta</h2>
+                    
+                    <form action="/processar-login" method="post">
+
+                            <label for="username">Nome de Usuário:</label><br>
+                            <input type="text" id="username" name="username"><br>
+
+                            <label for="password">Senha:</label><br>
+                            
+                            <input type="password" id="password" name="password"><br><br>
+                                <!-- <a href="#"> <input type="submit" value="Entrar"> </a> Aguardar conexão com back-end--> 
+                            
+                    </form>
+                        <a href="#"><button>Entrar</button></a>
+
+                        <div class="recovery">
+                            <a href="#"> <p>Esqueci minha senha</p> </a>
+                            <a href="cadastrar.html"> <p>Não possue um conta ? Cadastre-se ! </p> </a>
+                             
+                        </div>
+            </div>
+                
+            
+            <script src="js/entrar.js"></script>
+  
+</body>
+</html>
